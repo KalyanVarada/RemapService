@@ -10,8 +10,8 @@ namespace RemapService
             try
             {
                 string sql =
-                    "INSERT INTO log4netlog([Date], [Machine], [Thread], [Level], [Logger], [Message]) VALUES(" +
-                    DateTime.Now + "," + Environment.MachineName + ", 1, INFO, RemapProcess,'" + errorMessage + "')";
+                    "INSERT INTO log4netlog([Date], [Machine], [Thread], [Level], [Logger], [Message]) VALUES ('" +
+                    DateTime.Now + "','" + Environment.MachineName + "', '1', 'INFO', 'RemapProcess','" + errorMessage + "')";
                 string commandText = sql;
 
                 using (SqlConnection connection = new SqlConnection(connectionString))

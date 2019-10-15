@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemapService", "RemapService.csproj", "{AB090670-48CA-483B-A5B6-CAEB2FED9EDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB090670-48CA-483B-A5B6-CAEB2FED9EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB090670-48CA-483B-A5B6-CAEB2FED9EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB090670-48CA-483B-A5B6-CAEB2FED9EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB090670-48CA-483B-A5B6-CAEB2FED9EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37493A99-F860-45E0-B0D7-D53C0C089C30}
+	EndGlobalSection
+EndGlobal

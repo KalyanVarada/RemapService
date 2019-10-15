@@ -147,7 +147,7 @@ namespace RemapService
 
                     var product = "" + remapRequest.Envoirment == "PRODUCTION" ? string.Empty: remapRequest.Envoirment;  
                     // merger users for absence mgmt - to debug not workig in stage---
-                    var url = "http://" + ipAddress + ":" + port + "/api/users/organizations/merge?fromOrg=" + remapRequest.OldOrgXRefId + "&toOrg=" + remapRequest.NewOrgXRefId + "&productId=AbsMgmtStage" + product;
+                    var url = "http://" + ipAddress + ":" + port + "/api/users/organizations/merge?fromOrg=" + remapRequest.OldOrgXRefId + "&toOrg=" + remapRequest.NewOrgXRefId + "&productId=AbsMgmt" + product;
 
                     //var response = await client.PostAsync(url, null);
                     //logger.Log("Response from Merge IDM endpoint " + response.StatusCode, connectionString);
@@ -157,7 +157,7 @@ namespace RemapService
                     //if (false)
                     //{
                     //    url = "http://" + ipAddress + ":" + port + "/api/users/organizations/merge?fromOrg=" +
-                    //          remapRequest.OldOrgXRefId + "&toOrg = " + remapRequest.NewOrgXRefId + "&productId =ta" + product ;
+                    //          remapRequest.OldOrgXRefId + "&toOrg = " + remapRequest.NewOrgXRefId + "&productId=ta" + product ;
                     //    response = await client.PostAsync(url, null);
                     //}
                 }
